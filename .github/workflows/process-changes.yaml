@@ -1,0 +1,63 @@
+name: Process changes
+
+# on:
+#   schedule:
+#     # Run every day at 5:30 UTC
+#     - cron: "30 5 * * *"
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  process-changes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout data repository
+        uses: actions/checkout@v4
+        with:
+          path: ./data
+      - name: Checkout code repository
+        uses: actions/checkout@v4
+        with:
+          path: ./code
+          repository: colonial-heritage/integration
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+      - name: Install and build packages
+        run: |
+          cd ./code
+          npm ci
+          npm run build
+      - name: Fetch changes
+        run: |
+          cd ./data
+          ../code/packages/iiif-change-processor/dist/cli.js fetch \
+            --collection-iri "https://iiif.bodleian.ox.ac.uk/iiif/activity/all-changes" \
+            --dir-with-runs "./runs" \
+            --dir-with-changes "./resources" \
+            --wait-between-requests 500 \
+            --number-of-concurrent-requests 25
+      - name: Upload changes to RDF store
+        continue-on-error: true
+        run: |
+          cd ./data
+          test -z "$(git status --porcelain ./resources | head -1)" || \
+          ../code/packages/iiif-change-processor/dist/cli.js upload \
+            --triplydb-instance-url "${{ vars.TRIPLYDB_INSTANCE_URL }}" \
+            --triplydb-api-token "${{ secrets.TRIPLYDB_API_TOKEN }}" \
+            --triplydb-account "${{ vars.TRIPLYDB_ACCOUNT_DEVELOPMENT }}" \
+            --triplydb-dataset "${{ vars.TRIPLYDB_DATASET }}" \
+            --dir-with-changes "./resources" \
+            --dir-temp "$RUNNER_TEMP" \
+            --graph-name "https://data.colonialcollections.nl/bodleian"
+      - name: Save changes to repository
+        run: |
+          cd ./data
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -a -m "Save changes" || true
+          git push --force -u origin
