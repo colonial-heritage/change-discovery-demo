@@ -9,7 +9,7 @@ This is a demonstration of the 'change discovery' functionality of Colonial Coll
     1. It stores the resources that have been added or changed by the data provider
     1. It removes the resources that have been deleted by the data provider
 1. It stores the latest state of the data in the `resources` directory in this Git repository. In addition, it stores the details of the run in the `runs` directory so that the workflow can use these on the next run.
-1. It replaces the resources of the data provider in the RDF store of Colonial Collections by removing the resources that were stored in the previous run and by uploading the resources that have been stored in the current run.
+1. It replaces the resources of the data provider in the [RDF store](https://colonial-heritage.triply.cc/data-hub-development/iiif-change-discovery-demo/graphs) of Colonial Collections by removing the resources that were stored in the previous run and by uploading the resources that have been stored in the current run.
 
 ## Example: Bodleian Libraries
 
