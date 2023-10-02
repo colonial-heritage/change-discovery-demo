@@ -35,7 +35,7 @@ jobs:
             --dir-with-changes "./resources" \
             --wait-between-requests 500 \
             --number-of-concurrent-requests 25
-      - name: Upload changes to RDF store
+      - name: Upload changes to data platform
         continue-on-error: true
         run: |
           cd ./data
