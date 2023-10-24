@@ -26,28 +26,24 @@ jobs:
           cd ./code
           npm ci
           npm run build
-      - name: Fetch changes
+      - name: Fetch IRIs of changed resources
         run: |
           cd ./data
-          ../code/packages/iiif-change-processor/dist/cli.js fetch \
+          ../code/packages/iiif-change-storer/dist/cli.js fetch \
             --collection-iri "https://iiif.bodleian.ox.ac.uk/iiif/activity/all-changes" \
             --dir-with-runs "./runs" \
-            --dir-with-changes "./resources" \
-            --wait-between-requests 500 \
-            --number-of-concurrent-requests 25
-      - name: Upload changes to data platform
-        continue-on-error: true
+            --file-with-metadata "./metadata.csv" \
+            --wait-between-requests 100
+      - name: Process changed resources
         run: |
           cd ./data
-          test -z "$(git status --porcelain ./resources | head -1)" || \
-          ../code/packages/iiif-change-processor/dist/cli.js upload \
-            --triplydb-instance-url "${{ vars.TRIPLYDB_INSTANCE_URL }}" \
-            --triplydb-api-token "${{ secrets.TRIPLYDB_API_TOKEN }}" \
-            --triplydb-account "${{ vars.TRIPLYDB_ACCOUNT_DEVELOPMENT }}" \
-            --triplydb-dataset "${{ vars.TRIPLYDB_DATASET }}" \
+          ../code/packages/iiif-change-storer/dist/cli.js process \
+            --file-with-metadata "./metadata.csv" \
+            --dir-with-files-with-metadata "$RUNNER_TEMP/chunks" \
+            --number-of-lines-per-file-with-metadata 1000 \
             --dir-with-changes "./resources" \
-            --dir-temp "$RUNNER_TEMP" \
-            --graph-name "https://data.colonialcollections.nl/bodleian"
+            --wait-between-requests 0 \
+            --number-of-concurrent-requests 25
       - name: Save changes to repository
         run: |
           cd ./data
