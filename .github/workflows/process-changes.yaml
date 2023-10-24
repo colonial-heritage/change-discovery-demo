@@ -1,8 +1,12 @@
 name: Process changes
 
+# on:
+#   schedule:
+#     - cron: "30 5 * * *"
+
 on:
-  schedule:
-    - cron: "30 5 * * *"
+  push:
+    branches: ["main"]
 
 jobs:
   process-changes:
@@ -33,7 +37,7 @@ jobs:
             --collection-iri "https://iiif.bodleian.ox.ac.uk/iiif/activity/all-changes" \
             --dir-with-runs "./runs" \
             --file-with-metadata "./metadata.csv" \
-            --wait-between-requests 100
+            --wait-between-requests 0
       - name: Process changed resources
         run: |
           cd ./data
