@@ -44,7 +44,7 @@ jobs:
           ../code/packages/iiif-change-storer/dist/cli.js process \
             --file-with-metadata "./metadata.csv" \
             --dir-with-files-with-metadata "$RUNNER_TEMP/chunks" \
-            --number-of-lines-per-file-with-metadata 1000 \
+            --number-of-lines-per-file-with-metadata 5000 \
             --dir-with-changes "./resources" \
             --wait-between-requests 0 \
             --number-of-concurrent-requests 25
