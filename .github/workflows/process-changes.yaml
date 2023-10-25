@@ -1,8 +1,12 @@
 name: Process changes
 
+# on:
+#   schedule:
+#     - cron: "30 5 * * *"
+
 on:
-  schedule:
-    - cron: "30 5 * * *"
+  push:
+    branches: ["main"]
 
 jobs:
   process-changes:
