@@ -41,10 +41,10 @@ jobs:
           cd ./data
           ../code/packages/iiif-change-storer/dist/cli.js process \
             --dir-with-queue "./queue" \
-            --dir-with-changes "./resources" \
+            --dir-with-resources "./resources" \
             --wait-between-requests 0 \
             --number-of-concurrent-requests 25
-      - name: Save changes to repository
+      - name: Save changed resources to repository
         run: |
           cd ./data
           git config --global user.name "github-actions[bot]"
