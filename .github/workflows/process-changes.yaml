@@ -24,7 +24,7 @@ jobs:
       - name: Install and build packages
         run: |
           cd ./code
-          npm ci --omit=dev
+          npm ci
           npm run build
       - name: Fetch IRIs of changed resources
         run: |
