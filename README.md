@@ -8,7 +8,7 @@ This is a demonstration of the 'change discovery' functionality of Colonial Coll
 1. If so, it processes the changes of the data provider. Notably:
     1. It stores the resources that have been added or modified by the data provider
     1. It removes the resources that have been deleted by the data provider
-1. It stores the latest state of the data in the [resources](./resources/) directory in this repository. In addition, it stores the details of the run in the [runs](./runs/) directory so that the workflow can use these on the next run.
+1. It stores the latest state of the data in the [resources](./resources/) directory in this repository. In addition, it stores the details of the run in the [run](./run.nt) file so that the workflow can use this on the next run.
 1. It replaces the resources in the [data platform](https://colonial-heritage.triply.cc/data-hub-development/iiif-change-discovery-demo/graphs) of Colonial Collections by removing the resources that were stored in the previous run and by uploading the resources that have been stored in the current run.
 
 ## Notes about the implementation
