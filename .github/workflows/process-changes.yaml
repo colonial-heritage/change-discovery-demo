@@ -31,7 +31,7 @@ jobs:
           cd ./data
           ../code/packages/iiif-change-storer/dist/cli.js fetch \
             --collection-iri "https://iiif.bodleian.ox.ac.uk/iiif/activity/all-changes" \
-            --dir-with-runs "./runs" \
+            --file-with-run "./run.nt" \
             --file-with-metadata "$RUNNER_TEMP/metadata.csv" \
             --dir-with-queue "./queue" \
             --number-of-lines-per-file-with-metadata 5000 \
