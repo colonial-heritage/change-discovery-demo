@@ -1,6 +1,6 @@
 # Colonial Collections: discovering changes to the data of a data provider
 
-This is a demonstration of the 'change discovery' functionality of Colonial Collections. A [workflow](.github/workflows/process-changes.yaml) periodically checks whether the data of a data provider has changed, using its [IIIF Change Discovery endpoint](https://iiif.io/api/discovery/1.0/), and stores the current state of its data.
+This is a demonstration of the change discovery functionality of Colonial Collections. A [workflow](.github/workflows/process-changes.yaml) periodically checks whether the data of a data provider has changed, using its [IIIF Change Discovery endpoint](https://iiif.io/api/discovery/1.0/), and stores the current state of its data.
 
 ## Steps of the workflow
 
