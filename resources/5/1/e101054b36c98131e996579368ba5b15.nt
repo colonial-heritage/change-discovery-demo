@@ -1,70 +1,70 @@
 <https://iiif.bodleian.ox.ac.uk/iiif/manifest/d80f94a5-ab24-4b70-ba85-dad5bddaed43.json> <http://www.w3.org/2000/01/rdf-schema#label> "Bodleian Library CR. D. 14/1-5 (v.3) [plate 171]" .
 <https://iiif.bodleian.ox.ac.uk/iiif/manifest/d80f94a5-ab24-4b70-ba85-dad5bddaed43.json> <http://purl.org/dc/elements/1.1/description> "Lesbia eucharis" .
-_:df_20_1 <http://www.w3.org/2000/01/rdf-schema#label> "Homepage" .
-_:df_20_1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "<span><a href=\"https://digital.bodleian.ox.ac.uk/objects/d80f94a5-ab24-4b70-ba85-dad5bddaed43/\">View on Digital Bodleian</a></span>" .
-_:df_20_2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_1 .
-_:df_20_3 <http://www.w3.org/2000/01/rdf-schema#label> "Title" .
-_:df_20_3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Lesbia eucharis" .
-_:df_20_2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_4 .
-_:df_20_4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_3 .
-_:df_20_5 <http://www.w3.org/2000/01/rdf-schema#label> "Series Title" .
-_:df_20_5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "A monograph of the Trochilidæ, or family of hummingbirds" .
-_:df_20_4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_6 .
-_:df_20_6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_5 .
-_:df_20_7 <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
-_:df_20_7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "v.3" .
-_:df_20_6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_8 .
-_:df_20_8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_7 .
-_:df_20_9 <http://www.w3.org/2000/01/rdf-schema#label> "Shelfmark" .
-_:df_20_9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Bodleian Library CR. D. 14/1-5 (v.3) [plate 171]" .
-_:df_20_8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_10 .
-_:df_20_10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_9 .
-_:df_20_11 <http://www.w3.org/2000/01/rdf-schema#label> "Illustrator" .
-_:df_20_11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Gould, John, 1804-1881" .
-_:df_20_10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_12 .
-_:df_20_12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_11 .
-_:df_20_13 <http://www.w3.org/2000/01/rdf-schema#label> "Illustrator" .
-_:df_20_13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Richter, Henry Constantine, 1821-1910" .
-_:df_20_12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_14 .
-_:df_20_14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_13 .
-_:df_20_15 <http://www.w3.org/2000/01/rdf-schema#label> "Language" .
-_:df_20_15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "English" .
-_:df_20_14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_16 .
-_:df_20_16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_15 .
-_:df_20_17 <http://www.w3.org/2000/01/rdf-schema#label> "Date Statement" .
-_:df_20_17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1861-1886" .
-_:df_20_16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_18 .
-_:df_20_18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_17 .
-_:df_20_19 <http://www.w3.org/2000/01/rdf-schema#label> "Place of Origin" .
-_:df_20_19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "England, London" .
-_:df_20_18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_20 .
-_:df_20_20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_19 .
-_:df_20_21 <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
-_:df_20_21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Coloured lithograph of Train Bearer, Lesbia eucharis, includes flowering plant Tropaeolum smithi." .
-_:df_20_20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_22 .
-_:df_20_22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_21 .
-_:df_20_23 <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
-_:df_20_23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Plate 171 and accompanying text from John Gould's 'A monograph of the Trochilidæ, or family of hummingbirds'." .
-_:df_20_22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_24 .
-_:df_20_24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_23 .
-_:df_20_25 <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions" .
-_:df_20_25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "558 × 375 mm." .
-_:df_20_24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_26 .
-_:df_20_26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_25 .
-_:df_20_27 <http://www.w3.org/2000/01/rdf-schema#label> "Collection" .
-_:df_20_27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Early Modern and Modern Rare Books" .
-_:df_20_26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_28 .
-_:df_20_28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_27 .
-_:df_20_29 <http://www.w3.org/2000/01/rdf-schema#label> "Record Created" .
-_:df_20_29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2023-11-16T15:11:56Z" .
-_:df_20_28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_30 .
-_:df_20_30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_29 .
-_:df_20_31 <http://www.w3.org/2000/01/rdf-schema#label> "Holding Institution" .
-_:df_20_31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Bodleian Libraries, University of Oxford" .
-_:df_20_30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_32 .
-_:df_20_32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_20_31 .
-_:df_20_32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<https://iiif.bodleian.ox.ac.uk/iiif/manifest/d80f94a5-ab24-4b70-ba85-dad5bddaed43.json> <http://iiif.io/api/presentation/2#metadataLabels> _:df_20_2 .
+_:df_18_1 <http://www.w3.org/2000/01/rdf-schema#label> "Homepage" .
+_:df_18_1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "<span><a href=\"https://digital.bodleian.ox.ac.uk/objects/d80f94a5-ab24-4b70-ba85-dad5bddaed43/\">View on Digital Bodleian</a></span>" .
+_:df_18_2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_1 .
+_:df_18_3 <http://www.w3.org/2000/01/rdf-schema#label> "Title" .
+_:df_18_3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Lesbia eucharis" .
+_:df_18_2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_4 .
+_:df_18_4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_3 .
+_:df_18_5 <http://www.w3.org/2000/01/rdf-schema#label> "Series Title" .
+_:df_18_5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "A monograph of the Trochilidæ, or family of hummingbirds" .
+_:df_18_4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_6 .
+_:df_18_6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_5 .
+_:df_18_7 <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
+_:df_18_7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "v.3" .
+_:df_18_6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_8 .
+_:df_18_8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_7 .
+_:df_18_9 <http://www.w3.org/2000/01/rdf-schema#label> "Shelfmark" .
+_:df_18_9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Bodleian Library CR. D. 14/1-5 (v.3) [plate 171]" .
+_:df_18_8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_10 .
+_:df_18_10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_9 .
+_:df_18_11 <http://www.w3.org/2000/01/rdf-schema#label> "Illustrator" .
+_:df_18_11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Gould, John, 1804-1881" .
+_:df_18_10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_12 .
+_:df_18_12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_11 .
+_:df_18_13 <http://www.w3.org/2000/01/rdf-schema#label> "Illustrator" .
+_:df_18_13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Richter, Henry Constantine, 1821-1910" .
+_:df_18_12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_14 .
+_:df_18_14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_13 .
+_:df_18_15 <http://www.w3.org/2000/01/rdf-schema#label> "Language" .
+_:df_18_15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "English" .
+_:df_18_14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_16 .
+_:df_18_16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_15 .
+_:df_18_17 <http://www.w3.org/2000/01/rdf-schema#label> "Date Statement" .
+_:df_18_17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1861-1887" .
+_:df_18_16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_18 .
+_:df_18_18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_17 .
+_:df_18_19 <http://www.w3.org/2000/01/rdf-schema#label> "Place of Origin" .
+_:df_18_19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "England, London" .
+_:df_18_18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_20 .
+_:df_18_20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_19 .
+_:df_18_21 <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+_:df_18_21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Coloured lithograph of Train Bearer, Lesbia eucharis, includes flowering plant Tropaeolum smithi." .
+_:df_18_20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_22 .
+_:df_18_22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_21 .
+_:df_18_23 <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+_:df_18_23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Plate 171 and accompanying text from John Gould's 'A monograph of the Trochilidæ, or family of hummingbirds'." .
+_:df_18_22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_24 .
+_:df_18_24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_23 .
+_:df_18_25 <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions" .
+_:df_18_25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "558 × 375 mm." .
+_:df_18_24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_26 .
+_:df_18_26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_25 .
+_:df_18_27 <http://www.w3.org/2000/01/rdf-schema#label> "Collection" .
+_:df_18_27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Early Modern and Modern Rare Books" .
+_:df_18_26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_28 .
+_:df_18_28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_27 .
+_:df_18_29 <http://www.w3.org/2000/01/rdf-schema#label> "Record Created" .
+_:df_18_29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2023-11-17T12:37:07Z" .
+_:df_18_28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_30 .
+_:df_18_30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_29 .
+_:df_18_31 <http://www.w3.org/2000/01/rdf-schema#label> "Holding Institution" .
+_:df_18_31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Bodleian Libraries, University of Oxford" .
+_:df_18_30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_32 .
+_:df_18_32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_18_31 .
+_:df_18_32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/d80f94a5-ab24-4b70-ba85-dad5bddaed43.json> <http://iiif.io/api/presentation/2#metadataLabels> _:df_18_2 .
 <https://iiif.bodleian.ox.ac.uk/iiif/manifest/d80f94a5-ab24-4b70-ba85-dad5bddaed43.json> <http://iiif.io/api/presentation/2#presentationDate> "1861-01-01T00:00:00Z" .
 <https://digital.bodleian.ox.ac.uk/objects/d80f94a5-ab24-4b70-ba85-dad5bddaed43/> <http://www.w3.org/2000/01/rdf-schema#label> "View on Digital Bodleian" .
 <https://digital.bodleian.ox.ac.uk/objects/d80f94a5-ab24-4b70-ba85-dad5bddaed43/> <http://purl.org/dc/elements/1.1/format> "text/html" .
@@ -96,11 +96,11 @@ _:df_20_32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/
 <https://iiif.bodleian.ox.ac.uk/iiif/image/a21889cb-0cfc-4ea8-991f-639dca2611bc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Image> .
 <https://iiif.bodleian.ox.ac.uk/iiif/annotation/a21889cb-0cfc-4ea8-991f-639dca2611bc.json> <http://www.w3.org/ns/oa#hasBody> <https://iiif.bodleian.ox.ac.uk/iiif/image/a21889cb-0cfc-4ea8-991f-639dca2611bc> .
 <https://iiif.bodleian.ox.ac.uk/iiif/annotation/a21889cb-0cfc-4ea8-991f-639dca2611bc.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> .
-_:df_20_33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/annotation/a21889cb-0cfc-4ea8-991f-639dca2611bc.json> .
-_:df_20_33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<https://iiif.bodleian.ox.ac.uk/iiif/canvas/a21889cb-0cfc-4ea8-991f-639dca2611bc.json> <http://iiif.io/api/presentation/2#hasImageAnnotations> _:df_20_33 .
+_:df_18_33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/annotation/a21889cb-0cfc-4ea8-991f-639dca2611bc.json> .
+_:df_18_33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://iiif.bodleian.ox.ac.uk/iiif/canvas/a21889cb-0cfc-4ea8-991f-639dca2611bc.json> <http://iiif.io/api/presentation/2#hasImageAnnotations> _:df_18_33 .
 <https://iiif.bodleian.ox.ac.uk/iiif/canvas/a21889cb-0cfc-4ea8-991f-639dca2611bc.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iiif.io/api/presentation/2#Canvas> .
-_:df_20_34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/canvas/a21889cb-0cfc-4ea8-991f-639dca2611bc.json> .
+_:df_18_34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/canvas/a21889cb-0cfc-4ea8-991f-639dca2611bc.json> .
 <https://iiif.bodleian.ox.ac.uk/iiif/canvas/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> <http://www.w3.org/2000/01/rdf-schema#label> "Lesbia eucharis, text" .
 <https://iiif.bodleian.ox.ac.uk/iiif/canvas/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> <http://www.w3.org/2003/12/exif/ns#width> "5360"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://iiif.bodleian.ox.ac.uk/iiif/canvas/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> <http://www.w3.org/2003/12/exif/ns#height> "8564"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -114,28 +114,28 @@ _:df_20_34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodl
 <https://iiif.bodleian.ox.ac.uk/iiif/image/ab7a81f7-d757-4c66-8477-74ecafd468a0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Image> .
 <https://iiif.bodleian.ox.ac.uk/iiif/annotation/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> <http://www.w3.org/ns/oa#hasBody> <https://iiif.bodleian.ox.ac.uk/iiif/image/ab7a81f7-d757-4c66-8477-74ecafd468a0> .
 <https://iiif.bodleian.ox.ac.uk/iiif/annotation/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> .
-_:df_20_35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/annotation/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> .
-_:df_20_35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<https://iiif.bodleian.ox.ac.uk/iiif/canvas/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> <http://iiif.io/api/presentation/2#hasImageAnnotations> _:df_20_35 .
+_:df_18_35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/annotation/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> .
+_:df_18_35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://iiif.bodleian.ox.ac.uk/iiif/canvas/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> <http://iiif.io/api/presentation/2#hasImageAnnotations> _:df_18_35 .
 <https://iiif.bodleian.ox.ac.uk/iiif/canvas/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iiif.io/api/presentation/2#Canvas> .
-_:df_20_34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_36 .
-_:df_20_36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/canvas/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> .
-_:df_20_36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<https://iiif.bodleian.ox.ac.uk/iiif/sequence/d80f94a5-ab24-4b70-ba85-dad5bddaed43_default.json> <http://iiif.io/api/presentation/2#hasCanvases> _:df_20_34 .
+_:df_18_34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_36 .
+_:df_18_36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/canvas/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> .
+_:df_18_36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://iiif.bodleian.ox.ac.uk/iiif/sequence/d80f94a5-ab24-4b70-ba85-dad5bddaed43_default.json> <http://iiif.io/api/presentation/2#hasCanvases> _:df_18_34 .
 <https://iiif.bodleian.ox.ac.uk/iiif/sequence/d80f94a5-ab24-4b70-ba85-dad5bddaed43_default.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iiif.io/api/presentation/2#Sequence> .
-_:df_20_37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/sequence/d80f94a5-ab24-4b70-ba85-dad5bddaed43_default.json> .
-_:df_20_37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<https://iiif.bodleian.ox.ac.uk/iiif/manifest/d80f94a5-ab24-4b70-ba85-dad5bddaed43.json> <http://iiif.io/api/presentation/2#hasSequences> _:df_20_37 .
+_:df_18_37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/sequence/d80f94a5-ab24-4b70-ba85-dad5bddaed43_default.json> .
+_:df_18_37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/d80f94a5-ab24-4b70-ba85-dad5bddaed43.json> <http://iiif.io/api/presentation/2#hasSequences> _:df_18_37 .
 <https://iiif.bodleian.ox.ac.uk/iiif/range/d80f94a5-ab24-4b70-ba85-dad5bddaed43/LOG_0000> <http://www.w3.org/2000/01/rdf-schema#label> "CR. D. 14/1-5 (v.3) [plate 171]" .
 <https://iiif.bodleian.ox.ac.uk/iiif/range/d80f94a5-ab24-4b70-ba85-dad5bddaed43/LOG_0000> <http://iiif.io/api/presentation/2#viewingHint> <http://iiif.io/api/presentation/2#topHint> .
-_:df_20_38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/canvas/a21889cb-0cfc-4ea8-991f-639dca2611bc.json> .
-_:df_20_38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_20_39 .
-_:df_20_39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/canvas/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> .
-_:df_20_39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<https://iiif.bodleian.ox.ac.uk/iiif/range/d80f94a5-ab24-4b70-ba85-dad5bddaed43/LOG_0000> <http://iiif.io/api/presentation/2#hasCanvases> _:df_20_38 .
+_:df_18_38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/canvas/a21889cb-0cfc-4ea8-991f-639dca2611bc.json> .
+_:df_18_38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_18_39 .
+_:df_18_39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/canvas/ab7a81f7-d757-4c66-8477-74ecafd468a0.json> .
+_:df_18_39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://iiif.bodleian.ox.ac.uk/iiif/range/d80f94a5-ab24-4b70-ba85-dad5bddaed43/LOG_0000> <http://iiif.io/api/presentation/2#hasCanvases> _:df_18_38 .
 <https://iiif.bodleian.ox.ac.uk/iiif/range/d80f94a5-ab24-4b70-ba85-dad5bddaed43/LOG_0000> <http://iiif.io/api/presentation/2#hasStartCanvas> <https://iiif.bodleian.ox.ac.uk/iiif/canvas/a21889cb-0cfc-4ea8-991f-639dca2611bc.json> .
 <https://iiif.bodleian.ox.ac.uk/iiif/range/d80f94a5-ab24-4b70-ba85-dad5bddaed43/LOG_0000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iiif.io/api/presentation/2#Range> .
-_:df_20_40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/range/d80f94a5-ab24-4b70-ba85-dad5bddaed43/LOG_0000> .
-_:df_20_40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<https://iiif.bodleian.ox.ac.uk/iiif/manifest/d80f94a5-ab24-4b70-ba85-dad5bddaed43.json> <http://iiif.io/api/presentation/2#hasRanges> _:df_20_40 .
+_:df_18_40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/range/d80f94a5-ab24-4b70-ba85-dad5bddaed43/LOG_0000> .
+_:df_18_40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/d80f94a5-ab24-4b70-ba85-dad5bddaed43.json> <http://iiif.io/api/presentation/2#hasRanges> _:df_18_40 .
 <https://iiif.bodleian.ox.ac.uk/iiif/manifest/d80f94a5-ab24-4b70-ba85-dad5bddaed43.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iiif.io/api/presentation/2#Manifest> .
