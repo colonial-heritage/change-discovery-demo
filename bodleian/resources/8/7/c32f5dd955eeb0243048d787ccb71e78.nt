@@ -1,0 +1,92 @@
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/67b7ed07-df76-48e3-822c-fa9bd5478088.json> <http://www.w3.org/2000/01/rdf-schema#label> "Bodleian Library POSTER 1997-31" .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/67b7ed07-df76-48e3-822c-fa9bd5478088.json> <http://purl.org/dc/elements/1.1/description> "POSTER 1997-31" .
+_:df_1931_1 <http://www.w3.org/2000/01/rdf-schema#label> "Homepage" .
+_:df_1931_1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "<span><a href=\"https://digital.bodleian.ox.ac.uk/objects/67b7ed07-df76-48e3-822c-fa9bd5478088/\">View on Digital Bodleian</a></span>" .
+_:df_1931_2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_1931_1 .
+_:df_1931_3 <http://www.w3.org/2000/01/rdf-schema#label> "Shelfmark" .
+_:df_1931_3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Bodleian Library POSTER 1997-31" .
+_:df_1931_2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_1931_4 .
+_:df_1931_4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_1931_3 .
+_:df_1931_5 <http://www.w3.org/2000/01/rdf-schema#label> "Language" .
+_:df_1931_5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "English" .
+_:df_1931_4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_1931_6 .
+_:df_1931_6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_1931_5 .
+_:df_1931_7 <http://www.w3.org/2000/01/rdf-schema#label> "Date Statement" .
+_:df_1931_7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1997" .
+_:df_1931_6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_1931_8 .
+_:df_1931_8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_1931_7 .
+_:df_1931_9 <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+_:df_1931_9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "As promised. Lower mortgages [Portrait of John Major's eyes]" .
+_:df_1931_8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_1931_10 .
+_:df_1931_10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_1931_9 .
+_:df_1931_11 <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+_:df_1931_11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "General Election - Conservative" .
+_:df_1931_10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_1931_12 .
+_:df_1931_12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_1931_11 .
+_:df_1931_13 <http://www.w3.org/2000/01/rdf-schema#label> "Collection" .
+_:df_1931_13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Posters" .
+_:df_1931_12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_1931_14 .
+_:df_1931_14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_1931_13 .
+_:df_1931_15 <http://www.w3.org/2000/01/rdf-schema#label> "Record Created" .
+_:df_1931_15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2018-08-01T13:00:00Z" .
+_:df_1931_14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_1931_16 .
+_:df_1931_16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_1931_15 .
+_:df_1931_17 <http://www.w3.org/2000/01/rdf-schema#label> "Holding Institution" .
+_:df_1931_17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Bodleian Libraries, University of Oxford" .
+_:df_1931_16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df_1931_18 .
+_:df_1931_18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:df_1931_17 .
+_:df_1931_18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/67b7ed07-df76-48e3-822c-fa9bd5478088.json> <http://iiif.io/api/presentation/2#metadataLabels> _:df_1931_2 .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/67b7ed07-df76-48e3-822c-fa9bd5478088.json> <http://iiif.io/api/presentation/2#presentationDate> "1997-01-01T00:00:00Z" .
+<https://digital.bodleian.ox.ac.uk/objects/67b7ed07-df76-48e3-822c-fa9bd5478088/> <http://www.w3.org/2000/01/rdf-schema#label> "View on Digital Bodleian" .
+<https://digital.bodleian.ox.ac.uk/objects/67b7ed07-df76-48e3-822c-fa9bd5478088/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/67b7ed07-df76-48e3-822c-fa9bd5478088.json> <http://purl.org/dc/terms/hasFormat> <https://digital.bodleian.ox.ac.uk/objects/67b7ed07-df76-48e3-822c-fa9bd5478088/> .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/67b7ed07-df76-48e3-822c-fa9bd5478088.json> <http://iiif.io/api/presentation/2#attributionLabel> "<span>© Conservative Party. Terms of Use: All rights reserved. Permission to re-use must be sought from the Conservative Party Archive Trust at <a href=\"mailto:heritage@conservatives.com\">heritage@conservatives.com</a>.</span>" .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/f27e28db-0b08-4f16-9bdf-3565f591fb71/full/256,/0/default.jpg> <http://purl.org/dc/elements/1.1/format> "image/jpeg" .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/f27e28db-0b08-4f16-9bdf-3565f591fb71> <http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/f27e28db-0b08-4f16-9bdf-3565f591fb71/full/256,/0/default.jpg> <http://rdfs.org/sioc/services#has_service> <https://iiif.bodleian.ox.ac.uk/iiif/image/f27e28db-0b08-4f16-9bdf-3565f591fb71> .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/f27e28db-0b08-4f16-9bdf-3565f591fb71/full/256,/0/default.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Image> .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/67b7ed07-df76-48e3-822c-fa9bd5478088.json> <http://xmlns.com/foaf/0.1/logo> <https://iiif.bodleian.ox.ac.uk/iiif/image/f27e28db-0b08-4f16-9bdf-3565f591fb71/full/256,/0/default.jpg> .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92/full/256,/0/default.jpg> <http://purl.org/dc/elements/1.1/format> "image/jpeg" .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92> <http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92/full/256,/0/default.jpg> <http://rdfs.org/sioc/services#has_service> <https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92> .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92/full/256,/0/default.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Image> .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/67b7ed07-df76-48e3-822c-fa9bd5478088.json> <http://xmlns.com/foaf/0.1/thumbnail> <https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92/full/256,/0/default.jpg> .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/67b7ed07-df76-48e3-822c-fa9bd5478088.json> <http://iiif.io/api/presentation/2#viewingHint> <http://iiif.io/api/presentation/2#pagedHint> .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/67b7ed07-df76-48e3-822c-fa9bd5478088.json> <http://iiif.io/api/presentation/2#viewingDirection> <http://iiif.io/api/presentation/2#leftToRightDirection> .
+<https://iiif.bodleian.ox.ac.uk/iiif/sequence/67b7ed07-df76-48e3-822c-fa9bd5478088_default.json> <http://www.w3.org/2000/01/rdf-schema#label> "Default" .
+<https://iiif.bodleian.ox.ac.uk/iiif/canvas/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> <http://www.w3.org/2000/01/rdf-schema#label> "Image 1" .
+<https://iiif.bodleian.ox.ac.uk/iiif/canvas/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> <http://www.w3.org/2003/12/exif/ns#width> "7684"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://iiif.bodleian.ox.ac.uk/iiif/canvas/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> <http://www.w3.org/2003/12/exif/ns#height> "4016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://iiif.bodleian.ox.ac.uk/iiif/annotation/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> <http://www.w3.org/ns/oa#motivatedBy> <http://iiif.io/api/presentation/2#painting> .
+<https://iiif.bodleian.ox.ac.uk/iiif/annotation/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> <http://www.w3.org/ns/oa#hasTarget> <https://iiif.bodleian.ox.ac.uk/iiif/canvas/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92> <http://purl.org/dc/elements/1.1/format> "image/jpeg" .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92> <http://www.w3.org/2003/12/exif/ns#width> "7684"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92> <http://www.w3.org/2003/12/exif/ns#height> "4016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92> <http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92> <http://rdfs.org/sioc/services#has_service> <https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92> .
+<https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Image> .
+<https://iiif.bodleian.ox.ac.uk/iiif/annotation/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> <http://www.w3.org/ns/oa#hasBody> <https://iiif.bodleian.ox.ac.uk/iiif/image/84a6c7cf-a17e-4212-ab7d-00708f947e92> .
+<https://iiif.bodleian.ox.ac.uk/iiif/annotation/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> .
+_:df_1931_19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/annotation/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> .
+_:df_1931_19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://iiif.bodleian.ox.ac.uk/iiif/canvas/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> <http://iiif.io/api/presentation/2#hasImageAnnotations> _:df_1931_19 .
+<https://iiif.bodleian.ox.ac.uk/iiif/canvas/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iiif.io/api/presentation/2#Canvas> .
+_:df_1931_20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/canvas/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> .
+_:df_1931_20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://iiif.bodleian.ox.ac.uk/iiif/sequence/67b7ed07-df76-48e3-822c-fa9bd5478088_default.json> <http://iiif.io/api/presentation/2#hasCanvases> _:df_1931_20 .
+<https://iiif.bodleian.ox.ac.uk/iiif/sequence/67b7ed07-df76-48e3-822c-fa9bd5478088_default.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iiif.io/api/presentation/2#Sequence> .
+_:df_1931_21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/sequence/67b7ed07-df76-48e3-822c-fa9bd5478088_default.json> .
+_:df_1931_21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/67b7ed07-df76-48e3-822c-fa9bd5478088.json> <http://iiif.io/api/presentation/2#hasSequences> _:df_1931_21 .
+<https://iiif.bodleian.ox.ac.uk/iiif/range/67b7ed07-df76-48e3-822c-fa9bd5478088/LOG_0000> <http://www.w3.org/2000/01/rdf-schema#label> "POSTER 1997-31" .
+<https://iiif.bodleian.ox.ac.uk/iiif/range/67b7ed07-df76-48e3-822c-fa9bd5478088/LOG_0000> <http://iiif.io/api/presentation/2#viewingHint> <http://iiif.io/api/presentation/2#topHint> .
+_:df_1931_22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/canvas/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> .
+_:df_1931_22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://iiif.bodleian.ox.ac.uk/iiif/range/67b7ed07-df76-48e3-822c-fa9bd5478088/LOG_0000> <http://iiif.io/api/presentation/2#hasCanvases> _:df_1931_22 .
+<https://iiif.bodleian.ox.ac.uk/iiif/range/67b7ed07-df76-48e3-822c-fa9bd5478088/LOG_0000> <http://iiif.io/api/presentation/2#hasStartCanvas> <https://iiif.bodleian.ox.ac.uk/iiif/canvas/84a6c7cf-a17e-4212-ab7d-00708f947e92.json> .
+<https://iiif.bodleian.ox.ac.uk/iiif/range/67b7ed07-df76-48e3-822c-fa9bd5478088/LOG_0000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iiif.io/api/presentation/2#Range> .
+_:df_1931_23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://iiif.bodleian.ox.ac.uk/iiif/range/67b7ed07-df76-48e3-822c-fa9bd5478088/LOG_0000> .
+_:df_1931_23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/67b7ed07-df76-48e3-822c-fa9bd5478088.json> <http://iiif.io/api/presentation/2#hasRanges> _:df_1931_23 .
+<https://iiif.bodleian.ox.ac.uk/iiif/manifest/67b7ed07-df76-48e3-822c-fa9bd5478088.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iiif.io/api/presentation/2#Manifest> .
