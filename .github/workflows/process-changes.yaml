@@ -1,52 +1,47 @@
-name: Process changes
+name: Create graph
 
 on:
-  schedule:
-    - cron: "30 5 * * *"
+  push:
+    branches: ["main"]
 
 jobs:
-  process-changes:
+  run:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout data repository
         uses: actions/checkout@v4
         with:
           path: ./data
+          sparse-checkout: bodleian
       - name: Checkout code repository
         uses: actions/checkout@v4
         with:
           path: ./code
-          repository: colonial-heritage/integration
+          repository: colonial-heritage/integration-layer
       - name: Install Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: "18"
-      - name: Install and build packages
+          node-version: "20"
+      - name: Install app
         run: |
           cd ./code
-          npm ci
-          npm run build
-      - name: Fetch IRIs of changed resources
+          npm install --no-progress
+          npx turbo run build --filter=@colonial-collections/graph-create-iiif
+      - name: Create graph
         run: |
           cd ./data
-          ../code/packages/iiif-change-processor/dist/cli.js fetch \
-            --collection-iri "https://iiif.bodleian.ox.ac.uk/iiif/activity/all-changes" \
-            --file-with-run "./run.nt" \
-            --file-with-metadata "$RUNNER_TEMP/metadata.csv" \
-            --dir-with-queue "./queue" \
-            --number-of-lines-per-file-with-metadata 5000 \
-            --wait-between-requests 0
-      - name: Process changed resources
+          mkdir -p "$RUNNER_TEMP"
+          test -f ./bodleian/data/data.tar.zst && tar --zstd -xf ./bodleian/data/data.tar.zst -C "$RUNNER_TEMP"
+          ../code/apps/graph-create-iiif/dist/cli.js create \
+            --resource-dir ./bodleian/resources \
+            --data-file "$RUNNER_TEMP/data.sqlite" \
+            --iterate-endpoint-url "https://iiif.bodleian.ox.ac.uk/iiif/activity/all-changes"
+      - name: Save changes
         run: |
           cd ./data
-          ../code/packages/iiif-change-processor/dist/cli.js process \
-            --dir-with-queue "./queue" \
-            --dir-with-resources "./resources" \
-            --wait-between-requests 0 \
-            --number-of-concurrent-requests 25
-      - name: Save changed resources to repository
-        run: |
-          cd ./data
+          mkdir -p ./bodleian/data
+          test -f "$RUNNER_TEMP/data.sqlite" && tar --zstd -cf ./bodleian/data/data.tar.zst -C "$RUNNER_TEMP" data.sqlite
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
