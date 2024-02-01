@@ -1,8 +1,9 @@
 name: Create graph
 
+# Every hour
 on:
-  push:
-    branches: ["main"]
+  schedule:
+    - cron: "0 * * * *"
 
 jobs:
   run:
