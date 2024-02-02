@@ -1,9 +1,9 @@
 name: Create graph
 
-# Every hour
+# Once per week
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 0 * * 0"
 
 jobs:
   run:
