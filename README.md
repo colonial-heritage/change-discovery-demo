@@ -8,7 +8,7 @@ This is a demonstration of the change discovery functionality of Colonial Collec
 1. If so, it processes the changes of the data provider. Notably:
     1. It stores the resources that have been added or modified by the data provider
     1. It removes the resources that have been deleted by the data provider
-1. It stores the latest state of the data in the [resources directory](./resources/) in this repository. In addition, it stores the details of the run in a [data file](./data/) so that the workflow can use this on the next run.
+1. It stores the latest state of the data in the [resources directory](./bodleian/resources/) in this repository. In addition, it stores the details of the run in a [data file](./bodleian/data/) so that the workflow can use this on the next run.
 
 ## Notes about the implementation
 
