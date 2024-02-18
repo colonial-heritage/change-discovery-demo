@@ -1,9 +1,13 @@
 name: Create graph
 
 # Once per week
+# on:
+#   schedule:
+#     - cron: "0 0 * * 0"
+
 on:
-  schedule:
-    - cron: "0 0 * * 0"
+  push:
+    branches: ["main"]
 
 jobs:
   run:
@@ -37,7 +41,8 @@ jobs:
           ../code/apps/graph-create-iiif/dist/cli.js create \
             --resource-dir ./bodleian/resources \
             --data-file "$RUNNER_TEMP/data.sqlite" \
-            --iterate-endpoint-url "https://iiif.bodleian.ox.ac.uk/iiif/activity/all-changes"
+            --iterate-endpoint-url "https://iiif.bodleian.ox.ac.uk/iiif/activity/all-changes" \
+            --dereference-batch-size 50000
       - name: Save changes
         run: |
           cd ./data
