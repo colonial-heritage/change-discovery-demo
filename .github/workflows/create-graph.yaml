@@ -38,7 +38,14 @@ jobs:
             --resource-dir ./bodleian/resources \
             --data-file "$RUNNER_TEMP/data.sqlite" \
             --iterate-endpoint-url "https://iiif.bodleian.ox.ac.uk/iiif/activity/all-changes" \
-            --dereference-batch-size 50000
+            --dereference-batch-size 50000 \
+            --triplydb-instance-url "${{ vars.TRIPLYDB_INSTANCE_URL }}" \
+            --triplydb-api-token "${{ secrets.TRIPLYDB_API_TOKEN }}" \
+            --triplydb-account "${{ vars.TRIPLYDB_ACCOUNT }}" \
+            --triplydb-dataset "${{ vars.TRIPLYDB_DATASET }}" \
+            --triplydb-service "kg" \
+            --graph-name "https://data.colonialcollections.nl/bodleian" \
+            --temp-dir "$RUNNER_TEMP"
       - name: Save changes
         run: |
           cd ./data
